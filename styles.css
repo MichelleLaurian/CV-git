@@ -1,0 +1,98 @@
+* {
+ font-family: "Raleway", sans-serif;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ color: #ededed;
+}
+body {
+ background: #232526; /* fallback for old browsers */
+ background: -webkit-linear-gradient(
+  to right,
+  #414345,
+  #232526
+ ); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(
+  to right,
+  #414345,
+  #232526
+ ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*///////////////////////////NAV///////////////////////////////////////////// */
+
+.nav {
+ display: flex;
+ align-items: flex-end;
+ justify-content: flex-end;
+ margin: 3rem;
+}
+.nav ul li {
+ margin-bottom: 0.5rem;
+}
+
+.nav-title {
+ text-decoration: none;
+ transition: color 0.5s;
+}
+.nav-title:hover,
+.nav-title:focus {
+ color: #bfa442;
+ text-decoration: underline;
+}
+
+/*///////////////////////// PRESENTATION ///////////////////////////////////*/
+
+.presentation {
+ display: block;
+ align-items: center;
+ margin: 4rem;
+ /* width: 50%; */
+}
+.container-myName {
+ display: flex;
+ /* align-items: center; */
+ justify-content: center;
+}
+.my_name {
+ font-size: xx-large;
+ font-weight: 600;
+}
+.continer_myTitle {
+ display: flex;
+ /* align-items: flex-start; */
+ justify-content: center;
+}
+
+/* /////////////////////////CONTAINER BODY ////////////////////0 */
+
+.continer_body {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+/* ////////////////////////////////////MY PROYECTS ///////////////////////////// */
+.my_proyects {
+
+ /* border: 1px solid rgb(255, 255, 255); */
+ padding: 1rem;
+ width: 90%;
+ background-color:  rgba(55, 55, 55, 0.44) ;
+ box-shadow: 1px 1px 27px 19px rgba(94, 94, 94, 0.44);
+-webkit-box-shadow: 1px 1px 27px 19px rgba(86, 86, 86, 0.44);
+-moz-box-shadow: 1px 1px 27px 19px rgba(104, 104, 104, 0.44);
+}
+.container_cards{
+    display: flex;
+    text-align: center;
+    
+}
+.card__image{
+    position:absolute;
+}
+/* //////////////////////////////////////ABOUT ME////////////////////////////// */
+
+.container_aboutMe {
+ border: 1px solid rgb(255, 255, 255);
+} 
